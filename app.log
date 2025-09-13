@@ -34,3 +34,43 @@
 2025-09-13 14:17:51,129 [INFO] watchfiles.main: 1 change detected
 2025-09-13 14:17:51,519 [INFO] watchfiles.main: 1 change detected
 2025-09-13 14:17:51,895 [INFO] watchfiles.main: 1 change detected
+2025-09-13 18:34:20,135 [INFO] master_api: Incoming request: GET http://localhost:8000/docs
+2025-09-13 18:34:20,139 [INFO] master_api: Response status: 200
+2025-09-13 18:34:20,792 [INFO] master_api: Incoming request: GET http://localhost:8000/openapi.json
+2025-09-13 18:34:20,806 [INFO] master_api: Response status: 200
+2025-09-13 18:34:34,778 [INFO] master_api: Incoming request: GET http://localhost:8000/metrics
+2025-09-13 18:34:34,788 [INFO] master_api: Response status: 200
+2025-09-13 18:34:35,050 [INFO] master_api: Incoming request: GET http://localhost:8000/favicon.ico
+2025-09-13 18:34:35,053 [INFO] master_api: Response status: 404
+2025-09-13 18:37:37,133 [INFO] master_api: Incoming request: GET http://localhost:8000/metrics
+2025-09-13 18:37:37,141 [INFO] master_api: Response status: 200
+2025-09-13 18:38:06,364 [INFO] master_api: Incoming request: POST http://localhost:8000/master
+2025-09-13 18:38:06,372 [INFO] master_api: Received master API request: agent=agent_b, query=delhi
+2025-09-13 18:38:06,372 [INFO] master_api: Dispatching query to agent: agent_b
+2025-09-13 18:38:06,373 [INFO] master_api: Agent B processing query: delhi
+2025-09-13 18:38:06,693 [INFO] master_api: Agent B result: Weather in delhi: Partly Cloudy, temperature 21.9°C, humidity 49%, wind 8.6 kph.
+2025-09-13 18:38:06,699 [INFO] master_api: Agent 'agent_b' returned result successfully.
+2025-09-13 18:38:06,700 [INFO] master_api: Master API returning result: Weather in delhi: Partly Cloudy, temperature 21.9°C, humidity 49%, wind 8.6 kph.
+2025-09-13 18:38:06,701 [INFO] master_api: Response status: 200
+2025-09-13 18:38:17,788 [INFO] master_api: Incoming request: POST http://localhost:8000/master
+2025-09-13 18:38:17,791 [INFO] master_api: Received master API request: agent=agent_b, query=tokyo
+2025-09-13 18:38:17,792 [INFO] master_api: Dispatching query to agent: agent_b
+2025-09-13 18:38:17,793 [INFO] master_api: Agent B processing query: tokyo
+2025-09-13 18:38:18,202 [INFO] master_api: Agent B result: Weather in tokyo: Partly cloudy, temperature 28.4°C, humidity 79%, wind 23.0 kph.
+2025-09-13 18:38:18,203 [INFO] master_api: Agent 'agent_b' returned result successfully.
+2025-09-13 18:38:18,204 [INFO] master_api: Master API returning result: Weather in tokyo: Partly cloudy, temperature 28.4°C, humidity 79%, wind 23.0 kph.
+2025-09-13 18:38:18,206 [INFO] master_api: Response status: 200
+2025-09-13 18:39:06,977 [INFO] master_api: Incoming request: GET http://localhost:8000/metrics
+2025-09-13 18:39:06,985 [INFO] master_api: Response status: 200
+2025-09-13 18:39:34,750 [INFO] master_api: Incoming request: POST http://localhost:8000/master
+2025-09-13 18:39:34,763 [INFO] master_api: Received master API request: agent=agent_a, query=Actuary science
+2025-09-13 18:39:34,763 [INFO] master_api: Dispatching query to agent: agent_a
+2025-09-13 18:39:34,766 [INFO] master_api: Agent A processing query: Actuary science
+2025-09-13 18:39:36,949 [INFO] master_api: Agent A result: Actuary science uses mathematical and statistical methods to assess risk in insurance, finance, and other industries.
+
+2025-09-13 18:39:36,951 [INFO] master_api: Agent 'agent_a' returned result successfully.
+2025-09-13 18:39:36,951 [INFO] master_api: Master API returning result: Actuary science uses mathematical and statistical methods to assess risk in insurance, finance, and other industries.
+
+2025-09-13 18:39:36,952 [INFO] master_api: Response status: 200
+2025-09-13 18:39:53,587 [INFO] master_api: Incoming request: GET http://localhost:8000/metrics
+2025-09-13 18:39:53,591 [INFO] master_api: Response status: 200

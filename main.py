@@ -2,12 +2,17 @@ from fastapi import FastAPI, Request
 from manager import run_agent
 from logger_config import logger
 from pydantic import BaseModel
+from prometheus_fastapi_instrumentator import Instrumentator
 
 app = FastAPI()
 
 class RequestBody(BaseModel):
     agent: str
     query: str
+
+# Instrument FastAPI endpoints
+Instrumentator().instrument(app).expose(app)  # exposes /metrics
+
 
 # Middleware to log all requests
 @app.middleware("http")

@@ -3,5 +3,8 @@
 .env.*
 
 # Notes or scratch files
-*.notes
+notes
 *.txt
+
+#logs
+app.log
