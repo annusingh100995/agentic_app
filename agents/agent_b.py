@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 import httpx
 from langgraph.graph import StateGraph
 from pydantic import BaseModel
+from logger_config import logger
+import asyncio
 
 # Load env variables
 load_dotenv()
@@ -15,6 +17,7 @@ class AgentState(BaseModel):
     result: str = ""
 
 async def agent_b(query: str):
+    logger.info(f"Agent B processing query: {query}")
     async def weather_node(state: AgentState):
         city = state.query.strip()
         url = f"http://api.weatherapi.com/v1/current.json?key={WEATHER_API_KEY}&q={city}&aqi=no"
@@ -33,7 +36,7 @@ async def agent_b(query: str):
             )
         else:
             summary = f"Could not fetch weather for '{city}'. Please check the city name."
-
+        logger.info(f"Agent B result: {summary}")
         return {"result": summary}
 
     workflow = StateGraph(AgentState)

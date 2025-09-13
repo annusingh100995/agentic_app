@@ -4,6 +4,9 @@ from langgraph.graph import StateGraph
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from openai import OpenAI
+from logger_config import logger
+import asyncio
+
 
 # Load env variables
 load_dotenv()
@@ -32,6 +35,8 @@ class AgentState(BaseModel):
     result: str = ""
 
 async def agent_a(query: str):
+    logger.info(f"Agent A processing query: {query}")
+    await asyncio.sleep(1)  # simulate work
     async def summarize_node(state: AgentState):
         response = gemini_via_openai_client.chat.completions.create(
             model=MODEL,
@@ -42,6 +47,7 @@ async def agent_a(query: str):
         )
         # Gemini output is usually in response.choices[0].message.content
         summary = response.choices[0].message.content
+        logger.info(f"Agent A result: {summary}")
         return {"result": summary}
 
     workflow = StateGraph(AgentState)
