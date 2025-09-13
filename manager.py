@@ -1,32 +1,22 @@
 from agents.agent_a import agent_a
 from agents.agent_b import agent_b
 from logger_config import logger
-from prometheus_client import Counter, Histogram
+from intent_classifier import classify_intent
 
 agents = {
-    "agent_a": agent_a,
-    "agent_b": agent_b
+    "summarize": agent_a,
+    "weather": agent_b
 }
 
-# Metrics
-AGENT_CALLS = Counter("agent_calls_total", "Total number of agent calls", ["agent"])
-AGENT_LATENCY = Histogram("agent_latency_seconds", "Latency per agent", ["agent"])
+async def run_agent_by_intent(query: str):
+    intent = await classify_intent(query)
+    logger.info(f"Detected intent: {intent}")
 
-async def run_agent(agent_name: str, query: str):
-    logger.info(f"Dispatching query to agent: {agent_name}")
-    agent = agents.get(agent_name)
+    agent = agents.get(intent)
     if not agent:
-        logger.error(f"Agent '{agent_name}' not found.")
-        return f"Agent '{agent_name}' not found."
+        logger.warning(f"No agent available for intent '{intent}'")
+        return f"Sorry, I can't handle this request."
 
-    AGENT_CALLS.labels(agent=agent_name).inc()  # increment counter
-    
-    with AGENT_LATENCY.labels(agent=agent_name).time():  # measure execution time
-
-        try:
-            result = await agent(query)
-            logger.info(f"Agent '{agent_name}' returned result successfully.")
-            return result
-        except Exception as e:
-            logger.exception(f"Error while running agent '{agent_name}': {str(e)}")
-            return f"Error occurred in agent '{agent_name}'."
+    logger.info(f"Dispatching query to agent: {intent}")
+    result = await agent(query)
+    return result

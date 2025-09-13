@@ -74,3 +74,377 @@
 2025-09-13 18:39:36,952 [INFO] master_api: Response status: 200
 2025-09-13 18:39:53,587 [INFO] master_api: Incoming request: GET http://localhost:8000/metrics
 2025-09-13 18:39:53,591 [INFO] master_api: Response status: 200
+2025-09-13 19:24:43,738 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:24:43,801 [INFO] master_api: Response status: 200
+2025-09-13 19:24:47,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:24:47,945 [INFO] master_api: Response status: 200
+2025-09-13 19:24:52,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:24:52,944 [INFO] master_api: Response status: 200
+2025-09-13 19:24:57,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:24:57,945 [INFO] master_api: Response status: 200
+2025-09-13 19:25:02,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:02,944 [INFO] master_api: Response status: 200
+2025-09-13 19:25:07,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:07,943 [INFO] master_api: Response status: 200
+2025-09-13 19:25:12,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:12,945 [INFO] master_api: Response status: 200
+2025-09-13 19:25:17,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:17,943 [INFO] master_api: Response status: 200
+2025-09-13 19:25:22,937 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:22,941 [INFO] master_api: Response status: 200
+2025-09-13 19:25:27,937 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:27,948 [INFO] master_api: Response status: 200
+2025-09-13 19:25:32,949 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:32,953 [INFO] master_api: Response status: 200
+2025-09-13 19:25:37,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:37,945 [INFO] master_api: Response status: 200
+2025-09-13 19:25:42,945 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:42,954 [INFO] master_api: Response status: 200
+2025-09-13 19:25:47,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:47,943 [INFO] master_api: Response status: 200
+2025-09-13 19:25:52,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:52,945 [INFO] master_api: Response status: 200
+2025-09-13 19:25:57,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:25:57,945 [INFO] master_api: Response status: 200
+2025-09-13 19:26:03,255 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:03,260 [INFO] master_api: Response status: 200
+2025-09-13 19:26:07,937 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:07,940 [INFO] master_api: Response status: 200
+2025-09-13 19:26:12,943 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:12,946 [INFO] master_api: Response status: 200
+2025-09-13 19:26:17,950 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:17,953 [INFO] master_api: Response status: 200
+2025-09-13 19:26:22,954 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:22,958 [INFO] master_api: Response status: 200
+2025-09-13 19:26:27,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:27,941 [INFO] master_api: Response status: 200
+2025-09-13 19:26:32,943 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:32,947 [INFO] master_api: Response status: 200
+2025-09-13 19:26:37,936 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:37,939 [INFO] master_api: Response status: 200
+2025-09-13 19:26:42,948 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:42,952 [INFO] master_api: Response status: 200
+2025-09-13 19:26:47,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:47,943 [INFO] master_api: Response status: 200
+2025-09-13 19:26:53,507 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:53,512 [INFO] master_api: Response status: 200
+2025-09-13 19:26:57,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:26:57,944 [INFO] master_api: Response status: 200
+2025-09-13 19:27:02,945 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:02,947 [INFO] master_api: Response status: 200
+2025-09-13 19:27:09,122 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:09,126 [INFO] master_api: Response status: 200
+2025-09-13 19:27:12,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:12,943 [INFO] master_api: Response status: 200
+2025-09-13 19:27:17,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:17,943 [INFO] master_api: Response status: 200
+2025-09-13 19:27:22,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:22,942 [INFO] master_api: Response status: 200
+2025-09-13 19:27:27,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:27,944 [INFO] master_api: Response status: 200
+2025-09-13 19:27:32,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:32,944 [INFO] master_api: Response status: 200
+2025-09-13 19:27:37,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:37,943 [INFO] master_api: Response status: 200
+2025-09-13 19:27:42,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:42,943 [INFO] master_api: Response status: 200
+2025-09-13 19:27:47,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:47,944 [INFO] master_api: Response status: 200
+2025-09-13 19:27:52,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:52,943 [INFO] master_api: Response status: 200
+2025-09-13 19:27:57,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:27:57,942 [INFO] master_api: Response status: 200
+2025-09-13 19:28:02,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:02,942 [INFO] master_api: Response status: 200
+2025-09-13 19:28:07,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:07,942 [INFO] master_api: Response status: 200
+2025-09-13 19:28:12,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:12,943 [INFO] master_api: Response status: 200
+2025-09-13 19:28:17,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:17,943 [INFO] master_api: Response status: 200
+2025-09-13 19:28:22,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:22,942 [INFO] master_api: Response status: 200
+2025-09-13 19:28:27,942 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:27,951 [INFO] master_api: Response status: 200
+2025-09-13 19:28:32,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:32,942 [INFO] master_api: Response status: 200
+2025-09-13 19:28:37,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:37,944 [INFO] master_api: Response status: 200
+2025-09-13 19:28:42,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:42,944 [INFO] master_api: Response status: 200
+2025-09-13 19:28:47,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:47,945 [INFO] master_api: Response status: 200
+2025-09-13 19:28:52,943 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:52,946 [INFO] master_api: Response status: 200
+2025-09-13 19:28:57,938 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:28:57,941 [INFO] master_api: Response status: 200
+2025-09-13 19:29:02,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:02,943 [INFO] master_api: Response status: 200
+2025-09-13 19:29:07,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:07,943 [INFO] master_api: Response status: 200
+2025-09-13 19:29:12,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:12,943 [INFO] master_api: Response status: 200
+2025-09-13 19:29:17,945 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:17,948 [INFO] master_api: Response status: 200
+2025-09-13 19:29:22,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:23,051 [INFO] master_api: Response status: 200
+2025-09-13 19:29:27,943 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:27,946 [INFO] master_api: Response status: 200
+2025-09-13 19:29:32,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:32,943 [INFO] master_api: Response status: 200
+2025-09-13 19:29:37,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:37,943 [INFO] master_api: Response status: 200
+2025-09-13 19:29:42,944 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:42,947 [INFO] master_api: Response status: 200
+2025-09-13 19:29:47,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:47,946 [INFO] master_api: Response status: 200
+2025-09-13 19:29:52,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:52,942 [INFO] master_api: Response status: 200
+2025-09-13 19:29:57,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:29:57,946 [INFO] master_api: Response status: 200
+2025-09-13 19:30:02,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:02,945 [INFO] master_api: Response status: 200
+2025-09-13 19:30:07,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:07,943 [INFO] master_api: Response status: 200
+2025-09-13 19:30:12,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:12,943 [INFO] master_api: Response status: 200
+2025-09-13 19:30:17,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:17,945 [INFO] master_api: Response status: 200
+2025-09-13 19:30:22,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:22,942 [INFO] master_api: Response status: 200
+2025-09-13 19:30:27,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:27,944 [INFO] master_api: Response status: 200
+2025-09-13 19:30:32,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:32,947 [INFO] master_api: Response status: 200
+2025-09-13 19:30:37,938 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:37,942 [INFO] master_api: Response status: 200
+2025-09-13 19:30:42,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:42,943 [INFO] master_api: Response status: 200
+2025-09-13 19:30:47,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:47,944 [INFO] master_api: Response status: 200
+2025-09-13 19:30:52,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:52,943 [INFO] master_api: Response status: 200
+2025-09-13 19:30:57,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:30:57,942 [INFO] master_api: Response status: 200
+2025-09-13 19:31:02,945 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:02,948 [INFO] master_api: Response status: 200
+2025-09-13 19:31:07,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:07,944 [INFO] master_api: Response status: 200
+2025-09-13 19:31:12,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:12,944 [INFO] master_api: Response status: 200
+2025-09-13 19:31:17,942 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:17,946 [INFO] master_api: Response status: 200
+2025-09-13 19:31:22,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:22,941 [INFO] master_api: Response status: 200
+2025-09-13 19:31:27,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:27,942 [INFO] master_api: Response status: 200
+2025-09-13 19:31:32,945 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:32,948 [INFO] master_api: Response status: 200
+2025-09-13 19:31:37,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:37,944 [INFO] master_api: Response status: 200
+2025-09-13 19:31:42,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:42,942 [INFO] master_api: Response status: 200
+2025-09-13 19:31:47,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:47,944 [INFO] master_api: Response status: 200
+2025-09-13 19:31:52,936 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:52,940 [INFO] master_api: Response status: 200
+2025-09-13 19:31:57,944 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:31:57,945 [INFO] master_api: Response status: 200
+2025-09-13 19:32:02,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:02,942 [INFO] master_api: Response status: 200
+2025-09-13 19:32:07,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:07,943 [INFO] master_api: Response status: 200
+2025-09-13 19:32:12,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:12,943 [INFO] master_api: Response status: 200
+2025-09-13 19:32:17,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:17,942 [INFO] master_api: Response status: 200
+2025-09-13 19:32:22,937 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:22,940 [INFO] master_api: Response status: 200
+2025-09-13 19:32:27,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:27,943 [INFO] master_api: Response status: 200
+2025-09-13 19:32:32,937 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:32,940 [INFO] master_api: Response status: 200
+2025-09-13 19:32:38,037 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:38,040 [INFO] master_api: Response status: 200
+2025-09-13 19:32:42,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:42,943 [INFO] master_api: Response status: 200
+2025-09-13 19:32:47,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:47,943 [INFO] master_api: Response status: 200
+2025-09-13 19:32:52,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:52,942 [INFO] master_api: Response status: 200
+2025-09-13 19:32:57,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:32:57,943 [INFO] master_api: Response status: 200
+2025-09-13 19:33:02,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:02,943 [INFO] master_api: Response status: 200
+2025-09-13 19:33:07,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:07,943 [INFO] master_api: Response status: 200
+2025-09-13 19:33:12,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:12,944 [INFO] master_api: Response status: 200
+2025-09-13 19:33:17,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:17,945 [INFO] master_api: Response status: 200
+2025-09-13 19:33:22,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:22,944 [INFO] master_api: Response status: 200
+2025-09-13 19:33:27,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:27,942 [INFO] master_api: Response status: 200
+2025-09-13 19:33:32,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:32,942 [INFO] master_api: Response status: 200
+2025-09-13 19:33:37,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:37,943 [INFO] master_api: Response status: 200
+2025-09-13 19:33:42,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:42,943 [INFO] master_api: Response status: 200
+2025-09-13 19:33:47,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:47,944 [INFO] master_api: Response status: 200
+2025-09-13 19:33:52,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:52,941 [INFO] master_api: Response status: 200
+2025-09-13 19:33:57,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:33:57,944 [INFO] master_api: Response status: 200
+2025-09-13 19:34:02,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:02,942 [INFO] master_api: Response status: 200
+2025-09-13 19:34:07,942 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:07,948 [INFO] master_api: Response status: 200
+2025-09-13 19:34:12,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:12,944 [INFO] master_api: Response status: 200
+2025-09-13 19:34:17,015 [INFO] master_api: Incoming request: POST http://localhost:8000/master
+2025-09-13 19:34:17,127 [INFO] master_api: Received master API request: agent=agent_a, query=Actuary science
+2025-09-13 19:34:17,130 [INFO] master_api: Dispatching query to agent: agent_a
+2025-09-13 19:34:17,135 [INFO] master_api: Agent A processing query: Actuary science
+2025-09-13 19:34:17,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:17,947 [INFO] master_api: Response status: 200
+2025-09-13 19:34:19,501 [INFO] master_api: Agent A result: Actuary science uses mathematical and statistical methods to assess risk in insurance, finance, and other industries.
+
+2025-09-13 19:34:19,504 [INFO] master_api: Agent 'agent_a' returned result successfully.
+2025-09-13 19:34:19,505 [INFO] master_api: Master API returning result: Actuary science uses mathematical and statistical methods to assess risk in insurance, finance, and other industries.
+
+2025-09-13 19:34:19,508 [INFO] master_api: Response status: 200
+2025-09-13 19:34:22,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:22,943 [INFO] master_api: Response status: 200
+2025-09-13 19:34:27,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:27,944 [INFO] master_api: Response status: 200
+2025-09-13 19:34:32,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:32,943 [INFO] master_api: Response status: 200
+2025-09-13 19:34:34,979 [INFO] master_api: Incoming request: POST http://localhost:8000/master
+2025-09-13 19:34:34,980 [INFO] master_api: Received master API request: agent=agent_b, query=Dubai
+2025-09-13 19:34:34,980 [INFO] master_api: Dispatching query to agent: agent_b
+2025-09-13 19:34:34,988 [INFO] master_api: Agent B processing query: Dubai
+2025-09-13 19:34:36,055 [INFO] master_api: Agent B result: Weather in Dubai: Clear, temperature 33.2°C, humidity 53%, wind 30.6 kph.
+2025-09-13 19:34:36,058 [INFO] master_api: Agent 'agent_b' returned result successfully.
+2025-09-13 19:34:36,058 [INFO] master_api: Master API returning result: Weather in Dubai: Clear, temperature 33.2°C, humidity 53%, wind 30.6 kph.
+2025-09-13 19:34:36,060 [INFO] master_api: Response status: 200
+2025-09-13 19:34:37,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:37,944 [INFO] master_api: Response status: 200
+2025-09-13 19:34:41,627 [INFO] master_api: Incoming request: POST http://localhost:8000/master
+2025-09-13 19:34:41,628 [INFO] master_api: Received master API request: agent=agent_b, query=Delhi
+2025-09-13 19:34:41,631 [INFO] master_api: Dispatching query to agent: agent_b
+2025-09-13 19:34:41,631 [INFO] master_api: Agent B processing query: Delhi
+2025-09-13 19:34:41,779 [INFO] master_api: Agent B result: Weather in Delhi: Overcast, temperature 22.4°C, humidity 50%, wind 8.6 kph.
+2025-09-13 19:34:41,781 [INFO] master_api: Agent 'agent_b' returned result successfully.
+2025-09-13 19:34:41,782 [INFO] master_api: Master API returning result: Weather in Delhi: Overcast, temperature 22.4°C, humidity 50%, wind 8.6 kph.
+2025-09-13 19:34:41,783 [INFO] master_api: Response status: 200
+2025-09-13 19:34:42,945 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:42,949 [INFO] master_api: Response status: 200
+2025-09-13 19:34:45,614 [INFO] master_api: Incoming request: GET http://localhost:8000/metrics
+2025-09-13 19:34:45,617 [INFO] master_api: Response status: 200
+2025-09-13 19:34:47,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:47,945 [INFO] master_api: Response status: 200
+2025-09-13 19:34:48,336 [INFO] master_api: Incoming request: GET http://localhost:8000/metrics
+2025-09-13 19:34:48,339 [INFO] master_api: Response status: 200
+2025-09-13 19:34:52,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:52,944 [INFO] master_api: Response status: 200
+2025-09-13 19:34:57,937 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:34:57,940 [INFO] master_api: Response status: 200
+2025-09-13 19:35:02,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:02,944 [INFO] master_api: Response status: 200
+2025-09-13 19:35:07,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:07,946 [INFO] master_api: Response status: 200
+2025-09-13 19:35:12,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:12,948 [INFO] master_api: Response status: 200
+2025-09-13 19:35:17,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:17,945 [INFO] master_api: Response status: 200
+2025-09-13 19:35:22,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:22,943 [INFO] master_api: Response status: 200
+2025-09-13 19:35:27,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:27,944 [INFO] master_api: Response status: 200
+2025-09-13 19:35:32,942 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:32,952 [INFO] master_api: Response status: 200
+2025-09-13 19:35:37,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:37,945 [INFO] master_api: Response status: 200
+2025-09-13 19:35:42,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:42,949 [INFO] master_api: Response status: 200
+2025-09-13 19:35:47,938 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:47,943 [INFO] master_api: Response status: 200
+2025-09-13 19:35:52,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:52,943 [INFO] master_api: Response status: 200
+2025-09-13 19:35:57,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:35:57,942 [INFO] master_api: Response status: 200
+2025-09-13 19:36:02,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:02,945 [INFO] master_api: Response status: 200
+2025-09-13 19:36:07,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:07,945 [INFO] master_api: Response status: 200
+2025-09-13 19:36:12,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:12,944 [INFO] master_api: Response status: 200
+2025-09-13 19:36:17,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:17,945 [INFO] master_api: Response status: 200
+2025-09-13 19:36:22,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:22,945 [INFO] master_api: Response status: 200
+2025-09-13 19:36:27,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:27,945 [INFO] master_api: Response status: 200
+2025-09-13 19:36:32,937 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:32,942 [INFO] master_api: Response status: 200
+2025-09-13 19:36:37,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:37,945 [INFO] master_api: Response status: 200
+2025-09-13 19:36:42,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:42,943 [INFO] master_api: Response status: 200
+2025-09-13 19:36:47,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:47,943 [INFO] master_api: Response status: 200
+2025-09-13 19:36:52,947 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:52,951 [INFO] master_api: Response status: 200
+2025-09-13 19:36:58,016 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:36:58,023 [INFO] master_api: Response status: 200
+2025-09-13 19:37:02,941 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:02,947 [INFO] master_api: Response status: 200
+2025-09-13 19:37:07,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:07,945 [INFO] master_api: Response status: 200
+2025-09-13 19:37:12,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:12,946 [INFO] master_api: Response status: 200
+2025-09-13 19:37:17,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:17,946 [INFO] master_api: Response status: 200
+2025-09-13 19:37:22,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:22,944 [INFO] master_api: Response status: 200
+2025-09-13 19:37:27,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:27,943 [INFO] master_api: Response status: 200
+2025-09-13 19:37:32,939 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:32,944 [INFO] master_api: Response status: 200
+2025-09-13 19:37:37,938 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:37,942 [INFO] master_api: Response status: 200
+2025-09-13 19:37:42,942 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:42,946 [INFO] master_api: Response status: 200
+2025-09-13 19:37:47,940 [INFO] master_api: Incoming request: GET http://host.docker.internal:8000/metrics
+2025-09-13 19:37:47,943 [INFO] master_api: Response status: 200
+2025-09-13 19:56:52,626 [INFO] master_api: Received query: weather in zurich
+2025-09-13 19:56:53,191 [INFO] master_api: Detected intent: weather
+2025-09-13 19:56:53,193 [INFO] master_api: Dispatching query to agent: weather
+2025-09-13 19:56:53,193 [INFO] master_api: Agent B processing query: weather in zurich
+2025-09-13 19:56:53,393 [INFO] master_api: Agent B result: Weather in weather in zurich: Partly cloudy, temperature 18.4°C, humidity 77%, wind 3.6 kph.
+2025-09-13 19:56:53,393 [INFO] master_api: Master API returning result: Weather in weather in zurich: Partly cloudy, temperature 18.4°C, humidity 77%, wind 3.6 kph.
+2025-09-13 19:57:10,477 [INFO] master_api: Received query: waht is bitocin
+2025-09-13 19:57:11,163 [INFO] master_api: Detected intent: other
+2025-09-13 19:57:11,163 [WARNING] master_api: No agent available for intent 'other'
+2025-09-13 19:57:11,163 [INFO] master_api: Master API returning result: Sorry, I can't handle this request.
+2025-09-13 19:57:20,280 [INFO] master_api: Received query: waht is bitcoin
+2025-09-13 19:57:20,891 [INFO] master_api: Detected intent: other
+2025-09-13 19:57:20,891 [WARNING] master_api: No agent available for intent 'other'
+2025-09-13 19:57:20,891 [INFO] master_api: Master API returning result: Sorry, I can't handle this request.
+2025-09-13 19:57:28,967 [INFO] master_api: Received query: bitcoin
+2025-09-13 19:57:29,598 [INFO] master_api: Detected intent: other
+2025-09-13 19:57:29,598 [WARNING] master_api: No agent available for intent 'other'
+2025-09-13 19:57:29,599 [INFO] master_api: Master API returning result: Sorry, I can't handle this request.
+2025-09-13 19:57:41,187 [INFO] master_api: Received query: zurich
+2025-09-13 19:57:41,886 [INFO] master_api: Detected intent: other
+2025-09-13 19:57:41,886 [WARNING] master_api: No agent available for intent 'other'
+2025-09-13 19:57:41,887 [INFO] master_api: Master API returning result: Sorry, I can't handle this request.
+2025-09-13 20:03:42,569 [INFO] master_api: Received query: weather in paris
+2025-09-13 20:03:43,476 [INFO] master_api: Detected intent: weather
+2025-09-13 20:03:43,476 [INFO] master_api: Dispatching query to agent: weather
+2025-09-13 20:03:43,476 [INFO] master_api: Agent B processing query: weather in paris
+2025-09-13 20:03:43,664 [INFO] master_api: Agent B result: Weather in weather in paris: Light rain, temperature 13.4°C, humidity 94%, wind 13.3 kph.
+2025-09-13 20:03:43,667 [INFO] master_api: Master API returning result: Weather in weather in paris: Light rain, temperature 13.4°C, humidity 94%, wind 13.3 kph.
