@@ -1,0 +1,7 @@
+# Environment files
+.env
+.env.*
+
+# Notes or scratch files
+*.notes
+*.txt
