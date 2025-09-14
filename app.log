@@ -448,3 +448,15 @@
 2025-09-13 20:03:43,476 [INFO] master_api: Agent B processing query: weather in paris
 2025-09-13 20:03:43,664 [INFO] master_api: Agent B result: Weather in weather in paris: Light rain, temperature 13.4°C, humidity 94%, wind 13.3 kph.
 2025-09-13 20:03:43,667 [INFO] master_api: Master API returning result: Weather in weather in paris: Light rain, temperature 13.4°C, humidity 94%, wind 13.3 kph.
+2025-09-14 11:57:01,095 [INFO] master_api: Incoming request: GET http://localhost:8000/docs
+2025-09-14 11:57:01,097 [INFO] master_api: Response status: 200
+2025-09-14 11:57:01,452 [INFO] master_api: Incoming request: GET http://localhost:8000/openapi.json
+2025-09-14 11:57:01,465 [INFO] master_api: Response status: 200
+2025-09-14 11:57:17,608 [INFO] master_api: Incoming request: POST http://localhost:8000/master
+2025-09-14 11:57:17,741 [INFO] master_api: Received query: how is zurich today?
+2025-09-14 11:57:18,903 [INFO] master_api: Detected intent: weather
+2025-09-14 11:57:18,903 [INFO] master_api: Dispatching query to agent: weather
+2025-09-14 11:57:18,903 [INFO] master_api: Agent B processing query: how is zurich today?
+2025-09-14 11:57:19,422 [INFO] master_api: Agent B result: Weather in how is zurich today?: Partly cloudy, temperature 16.0°C, humidity 82%, wind 7.6 kph.
+2025-09-14 11:57:19,422 [INFO] master_api: Master API returning result: Weather in how is zurich today?: Partly cloudy, temperature 16.0°C, humidity 82%, wind 7.6 kph.
+2025-09-14 11:57:19,433 [INFO] master_api: Response status: 200

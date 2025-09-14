@@ -1,12 +1,21 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from pydantic import BaseModel
 from manager import run_agent_by_intent
 from logger_config import logger
+import uvicorn
 
 app = FastAPI()
 
 class RequestBody(BaseModel):
     query: str
+
+# Logging middleware
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    logger.info(f"Incoming request: {request.method} {request.url}")
+    response = await call_next(request)
+    logger.info(f"Response status: {response.status_code}")
+    return response
 
 @app.post("/master")
 async def master_api(body: RequestBody):
@@ -15,12 +24,10 @@ async def master_api(body: RequestBody):
     logger.info(f"Master API returning result: {result}")
     return {"result": result}
 
-
 if __name__ == "__main__":
-    import uvicorn
     uvicorn.run(
-        "main:app",      # "file_name:app_instance"
-        host="0.0.0.0",  # accessible from outside if needed
-        port=8000,       # port number
-        reload=True      # auto-reload on code changes (useful in development)
+        "main:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True
     )
