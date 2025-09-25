@@ -8,3 +8,5 @@ notes
 
 #logs
 app.log
+__pycache__
+app.log
