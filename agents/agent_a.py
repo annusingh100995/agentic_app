@@ -36,7 +36,7 @@ class AgentState(BaseModel):
 
 async def agent_a(query: str):
     logger.info(f"Agent A processing query: {query}")
-    await asyncio.sleep(1)  # simulate work
+    #await asyncio.sleep(1)  # simulate work
     async def summarize_node(state: AgentState):
         response = gemini_via_openai_client.chat.completions.create(
             model=MODEL,
