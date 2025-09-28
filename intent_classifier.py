@@ -18,16 +18,18 @@ FEW_SHOT_EXAMPLES = [
     {"query": "Will it rain tomorrow in London?", "intent": "weather"},
     {"query": "Tell me a joke", "intent": "other"},
     {"query": "What is the capital of France?", "intent": "other"},
+    {"query": "Can you give me german sentences for- Ich trinke kafee", "intent": "german_sentences"},
+    {"query": "Different German Sentence for Die Wetter ist Schon", "intent": "german_sentences"},
 ]
 
 async def classify_intent(query: str) -> str:
     """
     Classify the intent of the user query using few-shot examples.
-    Returns: 'summarize', 'weather', or 'other'
+    Returns: 'summarize', 'weather','german_sentences', or 'other'
     """
     system_message = (
         "You are an assistant that detects the intent of user queries. "
-        "Return only one word representing the intent: 'summarize', 'weather', or 'other'."
+        "Return only one word representing the intent: 'summarize', 'weather','german_sentences', or 'other'."
     )
 
     # Build the few-shot message string
@@ -46,6 +48,6 @@ async def classify_intent(query: str) -> str:
     )
 
     intent = response.choices[0].message.content.strip().lower()
-    if intent not in ["summarize", "weather"]:
+    if intent not in ["summarize", "weather","german_sentences"]:
         intent = "other"
     return intent

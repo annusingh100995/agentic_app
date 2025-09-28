@@ -1,11 +1,13 @@
 from agents.agent_a import agent_a
 from agents.agent_b import agent_b
+from agents.german_grammar_agent import grammar_agent
 from logger_config import logger
 from intent_classifier import classify_intent
 
 agents = {
     "summarize": agent_a,
-    "weather": agent_b
+    "weather": agent_b,
+    "german_sentences":grammar_agent
 }
 
 async def run_agent_by_intent(query: str):

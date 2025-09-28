@@ -18,7 +18,7 @@ gemini_via_openai_client = OpenAI(
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
-MODEL = "gemini-2.0-flash"
+MODEL = os.getenv("MODEL")
 
 SYSTEM_MESSAGE = "You are an assistant that summarizes text in a concise and clear way."
 
